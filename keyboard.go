@@ -7,7 +7,7 @@ import (
 	"strings"
 
 )
-const Exzam float64=60 // создаем констану 
+const Exzam float64=60 // создаем констану  exz
 func GetFloat()(float64,error){   // функция для чтения с клавиатуры
 	reader := bufio.NewReader(os.Stdin)
 input,err := reader.ReadString('\n')
